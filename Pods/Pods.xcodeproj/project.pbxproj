@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C3D9666B08CCB7CCC3EE96E269456946 /* AmazonIVSPlayer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BD86F4FC32B825540A86B61F5828D3C7 /* Build configuration list for PBXAggregateTarget "AmazonIVSPlayer" */;
+			buildPhases = (
+				B6625960DF4406C4EE3CD282504BB6AB /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AmazonIVSPlayer;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8F7460E79BBC050989D2DF498941FD9D /* Pods-eCommerce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7532A5F202D3969CCABD4DC2BE71EA /* Pods-eCommerce-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7A9FA83C75F1AB14922BACA4DBFC7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D9666B08CCB7CCC3EE96E269456946;
+			remoteInfo = AmazonIVSPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016CB5955A05EA4BBC1D45E620594E28 /* Pods-eCommerce-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-eCommerce-frameworks.sh"; sourceTree = "<group>"; };
+		047ACE9492DBDA502BE7B07AE1D1B4FF /* AmazonIVSPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmazonIVSPlayer.release.xcconfig; sourceTree = "<group>"; };
+		2AAB0F3E6590780A2ED1CCB03DEDCB3D /* Pods-eCommerce-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-eCommerce-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F7532A5F202D3969CCABD4DC2BE71EA /* Pods-eCommerce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-eCommerce-dummy.m"; sourceTree = "<group>"; };
+		44AB55B67E9479CC644FB97150829090 /* Pods-eCommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eCommerce.release.xcconfig"; sourceTree = "<group>"; };
+		68797C29EDBAABC2606C8FAD12A70003 /* AmazonIVSPlayer.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AmazonIVSPlayer.xcframework; sourceTree = "<group>"; };
+		8A08AECD514FF2FEE81701E9FCE84652 /* Pods-eCommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-eCommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B11078DDC4E591C256B2768DB35ECF1F /* Pods-eCommerce-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-eCommerce-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C553F88B835F608CDA1C5232B3AB00DA /* Pods-eCommerce */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-eCommerce"; path = "libPods-eCommerce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6995545A6F933E35A4245EF01B69740 /* AmazonIVSPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmazonIVSPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		E80F972FFEB0E9B681BF48B1CE38E6BD /* AmazonIVSPlayer-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AmazonIVSPlayer-xcframeworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92350AAB960466C55DC52561275EAE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEEBEED62B091AA37247D5C8CBC1C01 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA7B8642A46FB77EDEE2C773F3A9A51 /* Pods-eCommerce */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1FB80111C0C51AB3C529399F0C9E892C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68797C29EDBAABC2606C8FAD12A70003 /* AmazonIVSPlayer.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B975344E6AFD8D01EA8198CBDAED0C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F10BEFE3181D79205A9F26DF09B29 /* AmazonIVSPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE26909E73C9740C14869D22B6B73418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C553F88B835F608CDA1C5232B3AB00DA /* Pods-eCommerce */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				5B975344E6AFD8D01EA8198CBDAED0C3 /* Pods */,
+				AE26909E73C9740C14869D22B6B73418 /* Products */,
+				0BEEBEED62B091AA37247D5C8CBC1C01 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB40CF22DA2900652D40F47E5C8D0BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E80F972FFEB0E9B681BF48B1CE38E6BD /* AmazonIVSPlayer-xcframeworks.sh */,
+				D6995545A6F933E35A4245EF01B69740 /* AmazonIVSPlayer.debug.xcconfig */,
+				047ACE9492DBDA502BE7B07AE1D1B4FF /* AmazonIVSPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AmazonIVSPlayer";
+			sourceTree = "<group>";
+		};
+		EFA7B8642A46FB77EDEE2C773F3A9A51 /* Pods-eCommerce */ = {
+			isa = PBXGroup;
+			children = (
+				B11078DDC4E591C256B2768DB35ECF1F /* Pods-eCommerce-acknowledgements.markdown */,
+				2AAB0F3E6590780A2ED1CCB03DEDCB3D /* Pods-eCommerce-acknowledgements.plist */,
+				3F7532A5F202D3969CCABD4DC2BE71EA /* Pods-eCommerce-dummy.m */,
+				016CB5955A05EA4BBC1D45E620594E28 /* Pods-eCommerce-frameworks.sh */,
+				8A08AECD514FF2FEE81701E9FCE84652 /* Pods-eCommerce.debug.xcconfig */,
+				44AB55B67E9479CC644FB97150829090 /* Pods-eCommerce.release.xcconfig */,
+			);
+			name = "Pods-eCommerce";
+			path = "Target Support Files/Pods-eCommerce";
+			sourceTree = "<group>";
+		};
+		FA1F10BEFE3181D79205A9F26DF09B29 /* AmazonIVSPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1FB80111C0C51AB3C529399F0C9E892C /* Frameworks */,
+				EDB40CF22DA2900652D40F47E5C8D0BE /* Support Files */,
+			);
+			name = AmazonIVSPlayer;
+			path = AmazonIVSPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54623E1D7C78CCD816C7C935E23172B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FB5AA17FC7C86986C29FC6947DA0D72A /* Pods-eCommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC249C29B71DBD5092CC0533DED2F09 /* Build configuration list for PBXNativeTarget "Pods-eCommerce" */;
+			buildPhases = (
+				54623E1D7C78CCD816C7C935E23172B6 /* Headers */,
+				9C92706AFE9351BA2ADC2E5D76DFB5B6 /* Sources */,
+				92350AAB960466C55DC52561275EAE29 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				682B651CAAE7AA056C596ED629FAC1E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-eCommerce";
+			productName = "Pods-eCommerce";
+			productReference = C553F88B835F608CDA1C5232B3AB00DA /* Pods-eCommerce */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AE26909E73C9740C14869D22B6B73418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D9666B08CCB7CCC3EE96E269456946 /* AmazonIVSPlayer */,
+				FB5AA17FC7C86986C29FC6947DA0D72A /* Pods-eCommerce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6625960DF4406C4EE3CD282504BB6AB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AmazonIVSPlayer/AmazonIVSPlayer-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AmazonIVSPlayer/AmazonIVSPlayer-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AmazonIVSPlayer/AmazonIVSPlayer-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C92706AFE9351BA2ADC2E5D76DFB5B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7460E79BBC050989D2DF498941FD9D /* Pods-eCommerce-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		682B651CAAE7AA056C596ED629FAC1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AmazonIVSPlayer;
+			target = C3D9666B08CCB7CCC3EE96E269456946 /* AmazonIVSPlayer */;
+			targetProxy = D7A9FA83C75F1AB14922BACA4DBFC7FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18637CA77241E806294A0671DBFC5A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6995545A6F933E35A4245EF01B69740 /* AmazonIVSPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = (
+					"$(ARCHS_STANDARD)",
+					arm64e,
+				);
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = (
+					"$(ARCHS_STANDARD)",
+					arm64e,
+				);
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		73A3CE5420347D266EE6281A836587B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A08AECD514FF2FEE81701E9FCE84652 /* Pods-eCommerce.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C80B210BCA3829D5812AD82A6F985809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047ACE9492DBDA502BE7B07AE1D1B4FF /* AmazonIVSPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB43DEBC15D96B561007B8AFA3900B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AB55B67E9479CC644FB97150829090 /* Pods-eCommerce.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AC249C29B71DBD5092CC0533DED2F09 /* Build configuration list for PBXNativeTarget "Pods-eCommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A3CE5420347D266EE6281A836587B4 /* Debug */,
+				FB43DEBC15D96B561007B8AFA3900B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD86F4FC32B825540A86B61F5828D3C7 /* Build configuration list for PBXAggregateTarget "AmazonIVSPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18637CA77241E806294A0671DBFC5A04 /* Debug */,
+				C80B210BCA3829D5812AD82A6F985809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
